@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image" href="../rohith-profile.jpg " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOHN ROHITH MIDHUN J</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      // Must set darkMode to 'class' to match your ThemeContext logic
+      darkMode: 'class', 
+      theme: {
+        extend: {
+          colors: {
+            // Include your custom colors here for the CDN to recognize them
+            'primary': '#4F46E5', 
+            'secondary': '#10B981', 
+            'dark-bg': '#111827',     // You need this for the dark background
+            'dark-card': '#1F2937',   // You need this for dark mode cards
+          }
+        }
+      }
+    }
+  </script>
+  </body>
+</html>
