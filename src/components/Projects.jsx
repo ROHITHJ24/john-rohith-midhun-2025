@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ExternalLinkIcon, CodeIcon } from '@heroicons/react/outline';
 import buildMyRig from '../assets/buildMyRig.jpg';
 import ExpenseTracker from '../assets/ExpenseTracker.png';
+import WeatherApp from '../assets/WeatherApp.png';
 
 const projectsData = [
   {
@@ -26,10 +27,10 @@ const projectsData = [
     title: 'Weather App',
     description: 'A responsive weather application using the OpenWeather API to display current conditions.',
     technologies: ['React.js', 'Tailwind CSS', 'OpenWeather API'],
-    demoLink: '#',
-    githubLink: '#',
-    image: 'https://images.unsplash.com/photo-1594191942730-a888c3a504f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-  },
+    demoLink: 'https://weatherapp-john-rohith-midhun.netlify.app/',
+    githubLink: 'https://github.com/ROHITHJ24/WeartherApp2',
+    image: WeatherApp
+    },
 ];
 
 const ProjectCard = ({ project }) => {
