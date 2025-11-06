@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLinkIcon, CodeIcon } from '@heroicons/react/outline';
 import buildMyRig from '../assets/buildMyRig.jpg';
+import ReconAI from '../assets/ReconAI.png';
 import ExpenseTracker from '../assets/ExpenseTracker.png';
 import WeatherApp from '../assets/WeatherApp.png';
 
@@ -14,6 +15,14 @@ const projectsData = [
     demoLink: 'https://build-my-rig-rohith.netlify.app/',
     githubLink: 'https://github.com/ROHITHJ24/build-my-rig',
     image: buildMyRig
+},
+  {
+    title: 'RECON AI OSINT Tool',
+    description: 'It is an AI-powered OSINT tool for gathering information from various online sources.',
+    technologies: ['React.js', 'Tailwind CSS', 'Python', 'Certificate Transparency Log', 'Firebase'],
+    demoLink: 'https://recon-osint.netlify.app/',
+    githubLink: '',
+    image: ReconAI
 },
   {
     title: 'Expense Tracker',
